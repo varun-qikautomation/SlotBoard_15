@@ -1,0 +1,2 @@
+../Core/Src/modbus_crc.c:65:10:crc16	24	static
+../Core/Src/modbus_crc.c:81:9:crc8	24	static

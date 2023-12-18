@@ -1,0 +1,13 @@
+../Core/Src/RGBLed.c:18:6:RGBInit	16	static
+../Core/Src/RGBLed.c:27:6:registersWrite	24	static
+../Core/Src/RGBLed.c:39:6:Red	40	static
+../Core/Src/RGBLed.c:46:6:Green	40	static
+../Core/Src/RGBLed.c:55:6:Blue	40	static
+../Core/Src/RGBLed.c:64:6:Yellow	40	static
+../Core/Src/RGBLed.c:73:6:White	40	static
+../Core/Src/RGBLed.c:82:6:Cyan	40	static
+../Core/Src/RGBLed.c:91:6:Pink	40	static
+../Core/Src/RGBLed.c:100:6:LedOff	40	static
+../Core/Src/RGBLed.c:109:6:AllLedOff	24	static
+../Core/Src/RGBLed.c:116:7:SetLed	16	static
+../Core/Src/RGBLed.c:157:6:UpdateSlotLeds	24	static

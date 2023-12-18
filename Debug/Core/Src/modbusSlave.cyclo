@@ -1,0 +1,5 @@
+../Core/Src/modbusSlave.c:20:6:sendData	1
+../Core/Src/modbusSlave.c:31:6:modbusException	1
+../Core/Src/modbusSlave.c:42:6:updateSlotData	21
+../Core/Src/modbusSlave.c:200:6:lrr	1
+../Core/Src/modbusSlave.c:253:6:prr	1

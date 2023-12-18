@@ -1,0 +1,6 @@
+../Core/Src/irSend.c:22:6:sendNEC	3
+../Core/Src/irSend.c:45:6:sendRaw	3
+../Core/Src/irSend.c:58:6:mark	2
+../Core/Src/irSend.c:64:6:space	2
+../Core/Src/irSend.c:70:6:enableIROut	5
+../Core/Src/irSend.c:120:6:custom_delay_usec	2

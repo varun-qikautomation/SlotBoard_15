@@ -1,0 +1,15 @@
+../Core/Src/main.c:91:1:__io_putchar	16	static
+../Core/Src/main.c:100:6:delay	24	static
+../Core/Src/main.c:110:6:HAL_UARTEx_RxEventCallback	16	static
+../Core/Src/main.c:161:16:ReadSW_ID	16	static
+../Core/Src/main.c:193:5:main	8	static
+../Core/Src/main.c:322:6:SystemClock_Config	88	static
+../Core/Src/main.c:369:13:MX_TIM1_Init	120	static
+../Core/Src/main.c:463:13:MX_TIM2_Init	40	static
+../Core/Src/main.c:508:13:MX_TIM3_Init	40	static
+../Core/Src/main.c:553:13:MX_TIM14_Init	8	static
+../Core/Src/main.c:584:13:MX_TIM16_Init	8	static
+../Core/Src/main.c:616:13:MX_TIM17_Init	8	static
+../Core/Src/main.c:648:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:698:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:766:6:Error_Handler	8	static,ignoring_inline_asm

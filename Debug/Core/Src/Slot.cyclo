@@ -1,0 +1,3 @@
+../Core/Src/Slot.c:28:6:HAL_GPIO_EXTI_Rising_Callback	21
+../Core/Src/Slot.c:152:6:SlotCheck	26
+../Core/Src/Slot.c:242:6:SlotDataChek	1
