@@ -60,8 +60,8 @@ all: main-build
 main-build: SlotBoard_15_v1p1.elf secondary-outputs
 
 # Tool invocations
-SlotBoard_15_v1p1.elf SlotBoard_15_v1p1.map: $(OBJS) $(USER_OBJS) D:\Projects\SmartRack\Firmware\STM32G0\SlotBoard_15_v1p1\STM32G031K8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "SlotBoard_15_v1p1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"D:\Projects\SmartRack\Firmware\STM32G0\SlotBoard_15_v1p1\STM32G031K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SlotBoard_15_v1p1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+SlotBoard_15_v1p1.elf SlotBoard_15_v1p1.map: $(OBJS) $(USER_OBJS) D:\varun\SlotBoard_15\STM32G031K8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SlotBoard_15_v1p1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"D:\varun\SlotBoard_15\STM32G031K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SlotBoard_15_v1p1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
